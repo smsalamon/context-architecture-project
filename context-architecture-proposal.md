@@ -25,30 +25,7 @@ Dropped as boilerplate: navigation menus, "Related Information"/"Publications" l
 | Procedure type | apply, update card/record details, replace card, request document, set up access, appeal, report change in status | Procedure only |
 | Eligibility stage | qualifying, approved, continuing | Eligibility only |
 
-## 3. Sample slice structure
-
-`Slice/` holds 15 files, named `<concept-prefix>-<topic>.md`, each decomposed from one or more `source_data/ssa-NNN.md` pages (≤800 words each).
-
-```
-Slice/
-├── overview-ssi-program.md
-├── eligibility-social-security-credits.md
-├── eligibility-continuing-disability.md
-├── procedure-apply-ssi.md
-├── procedure-request-benefit-verification-letter.md
-├── procedure-sign-in-identity-verification.md
-├── documents-original-card-us-born-adult.md
-├── benefit-rules-early-retirement-reduction.md
-├── benefit-rules-delayed-retirement-credits.md
-├── benefit-rules-government-pension-offset.md
-├── decision-guidance-when-to-start-retirement.md
-├── medicare-only-and-part-b-enrollment.md
-├── fraud-detecting-phishing-emails.md
-├── tools-retirement-estimator.md
-└── tools-gpo-calculator.md
-```
-
-## 4. Finalized folder structure after the split
+## 3. Finalized folder structure after the split
 
 ```
 Slice/
@@ -78,7 +55,7 @@ Slice/
     └── gpo-calculator.md
 ```
 
-## 5. Sample frontmatter (one file per concept type)
+## 4. Sample frontmatter (one file per concept type)
 
 **Program overview** (`overview-ssi-program.md`)
 ```yaml
